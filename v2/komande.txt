@@ -1,0 +1,20 @@
+t0 - t7 temp registri
+
+or $dest, $op1, $op2 - bitwise or
+
+"return 0;":
+  addiu $v0, $0, 0
+  jr $ra
+
+globalne inicijalizirane varijable
+label: .word(int)/.hword(short)/.byte(char) value
+.globl label - varijable vidljive u drugim fajlovima
+bez toga ako je u c static varijabla
+
+x/1w &a - examine memorije
+
+lui $dest, val - ucita u gornji half registra
+
+sll $dest, $src, val - shift left logical
+srl - shift right logical (ne zavisi od predznaka)
+sra - shift right arithmetic (zavisi od predznaka)
