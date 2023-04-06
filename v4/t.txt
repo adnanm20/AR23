@@ -1,0 +1,6 @@
+napisati fju koja uzima 2 int16_t argumenta te nazad vraca uint32_t.
+fja provjerava da li je 2. argument == 0.
+ukoliko jeste vraca nazad 0xFFFFFFFF
+u suprotnom u najjacih 16 bita povratne vrijednosti
+smijesta rezultat dijelenja 2 arg,
+a u najslabijih 16 bita rezultat ostatka dijeljenja
